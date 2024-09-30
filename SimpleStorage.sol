@@ -9,11 +9,15 @@ contract SimpleStorage {
         uint256 favoriteNumber;
         string name;
     }
-    //pat is defined as a Person with favoriteNumber 7 and name "pat"
-    Person public pat = Person({favoriteNumber: 7, name: "pat"}); 
+
+    Person[] public listOfPeople;
 
     function store(uint256 _favoriteNumber) public {
         myFavoriteNumber = _favoriteNumber;
+    }
+
+    function addPerson(string memory _name, uint256 _favoriteNumber) public {
+        listOfPeople.push( Person(_favoriteNumber, _name));
     }
 
     function retrieve() public view returns(uint256) {

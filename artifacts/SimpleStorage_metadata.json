@@ -6,8 +6,32 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "pat",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -78,11 +102,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x7586700f9c8cbb6ec2914bd14629b9fb0db9f397a3aa695a7c04d549c759139d",
+			"keccak256": "0x16f0dd788cb05cac7d22bc4af886538ddc1101557cae7d5b4c073b6be021b20a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ea97662779d28c5dbd9ec8c2b6aad4450f4eac3cb860442e0ac58091acbb3a6d",
-				"dweb:/ipfs/QmUAijfVwM11GssntDAshGj7YoG2jDmVTxrGLTRLQrdQpb"
+				"bzz-raw://88aecec41e20f40433a0e4724d8aa641a9493aa40ce856d5860516ad4781cd13",
+				"dweb:/ipfs/QmZ5JYL31S41TeGCjQyKDibREoWyEv85maXNnKfqjwGZJ7"
 			]
 		}
 	},
