@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x2ca099005c9b92cfe2287624555a3decad8944022fa7c5679adcd33e2c56ac1c",
+			"keccak256": "0x783ef2507e6a332e1a97375bb9bb2f68d70fa59496c85e12bb633439a3eb2590",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://95c09e49c4a49030e671df45e48d3162551b89e2f3a41c1763b86931a273e363",
-				"dweb:/ipfs/QmRG75uMGyK2mWb31BSW15oMtPKZ6STtZx2Hzj4gjeV6MJ"
+				"bzz-raw://d27c49c6bfaff1ea4acbfe78d263dbef671fe7957aedbd70373e9d19cb26ecaf",
+				"dweb:/ipfs/QmdLQnzr8a5gdJcVYa7NVQ1qJxYSKg2QUUEZHhNxM95Bzu"
 			]
 		}
 	},
